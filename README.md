@@ -34,4 +34,5 @@ python WbotX.py
 - One to One client chat 
 - For force turned off : keyword "shutdown" from client side
 - Time out session of 20sec if no reply from client side
+- one can change time out session under WbotX.py change waiting=20 to any number
 
