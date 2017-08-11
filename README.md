@@ -2,9 +2,9 @@
 
 Selenium is a tool to test your web application. You can do this in various ways, for instance
 
-> Permit it to tap on buttons
-> Enter content in structures
-> Skim your site to check whether everything is "OK" and so on.
+1. Permit it to tap on buttons
+2. Enter content in structures
+3. Skim your site to check whether everything is "OK" and so on.
 
 ## Getting Started
 
