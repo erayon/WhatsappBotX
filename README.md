@@ -20,3 +20,13 @@ apt-get install firefox
 pip install selenium
 pip install aiml
 ```
+
+# installation
+```
+# Clone the github repository
+git clone 
+cd dynet
+mkdir build
+
+```
+
