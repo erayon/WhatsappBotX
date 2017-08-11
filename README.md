@@ -24,9 +24,12 @@ pip install aiml
 # installation
 ```
 # Clone the github repository
-git clone 
-cd dynet
-mkdir build
+git clone https://github.com/erayon/WhatsappBotX.git
+cd WhatsaapBotX
+
+```
+```
+python WbotX.py
 
 ```
 
