@@ -21,7 +21,7 @@ pip install selenium
 pip install aiml
 ```
 
-# installation
+# installation and running bot
 ```
 # Clone the github repository
 git clone https://github.com/erayon/WhatsappBotX.git
