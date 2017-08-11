@@ -26,10 +26,6 @@ pip install aiml
 # Clone the github repository
 git clone https://github.com/erayon/WhatsappBotX.git
 cd WhatsaapBotX
-
-```
-```
 python WbotX.py
-
 ```
 
