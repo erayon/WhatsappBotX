@@ -7,11 +7,12 @@ Selenium is a tool to test your web application. You can do this in various ways
 3. Skim your site to check whether everything is "OK" and so on.
 
 
-### Prerequisites
+# Prerequisites
 
-1. firefox (https://www.mozilla.org/en-US/firefox/new/)
-2. selenium (http://selenium-python.readthedocs.io/)
-3. aiml (https://pypi.python.org/pypi/python-aiml/0.9.0)
+1. Python3.2 or higher (https://www.python.org/downloads/)
+2. firefox (https://www.mozilla.org/en-US/firefox/new/)
+3. selenium (http://selenium-python.readthedocs.io/)
+4. aiml (https://pypi.python.org/pypi/python-aiml/0.9.0)
 
 
 ```
