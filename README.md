@@ -30,7 +30,7 @@ python WbotX.py
 ```
 
 ## Note
-- Emoji not supported
+- Emoji,photo,gif,videos,attachment are not supported
 - One to One client chat 
 - For force turned off : keyword "shutdown" from client side
 - Time out session of 20sec if no reply from client side
