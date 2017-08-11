@@ -8,5 +8,5 @@ Prerequisites
 You can install selenium through pip:
 
 pip install selenium
-conda install selenium
+
 
