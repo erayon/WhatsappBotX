@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>S *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>S</pattern>
+<template>:-)
+</template>
+</category>
+
+<category><pattern>S ATTENDRE A QUI</pattern>
+<template>Je ne comprend pas le sens
+</template>
+</category>
+
+<category><pattern>S ATTENDRE A QUOI</pattern>
+<template>Je ne comprend pas le sens
+</template>
+</category>
+
+<category><pattern>S ATTENDRE QUI</pattern>
+<template>Je ne comprend pas le sens
+</template>
+</category>
+
+<category><pattern>S ATTENDRE QUOI</pattern>
+<template>Je ne comprend pas le sens
+</template>
+</category>
+
+<category><pattern>S EST PAS *</pattern>
+<template><srai>CE N EST PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>S IL TE PLAIT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>S IL VOUS PLAIT</pattern>
+<template>Oui?
+</template>
+</category>
+
+<category><pattern>SAD</pattern>
+<template><srai>ARE YOU SAD</srai>
+</template>
+</category>
+
+<category><pattern>SADLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SAG *</pattern>
+<template>" <star/> "
+</template>
+</category>
+
+<category><pattern>SAG IHM *</pattern>
+<template>OK Ich werde es ihm sagen, wenn ich Ihn das naechste Mal treffe.
+</template>
+</category>
+
+<category><pattern>SAG IHR *</pattern>
+<template>OK Ich werde es ihm sagen, wenn ich Ihn das naechste Mal treffe.
+</template>
+</category>
+
+<category><pattern>SAGE *</pattern>
+<template>" <star/> "
+</template>
+</category>
+
+<category><pattern>SAGGITARIUS</pattern>
+<template>Fire Signs Rule.  <think><set name="sign">Saggitarius</set></think>
+</template>
+</category>
+
+<category><pattern>SAGITARIUS</pattern>
+<template><srai>SAGGITARIUS</srai>
+</template>
+</category>
+
+<category><pattern>SAGITTARIUS</pattern>
+<template><srai>SAGGITARIUS</srai>
+</template>
+</category>
+
+<category><pattern>SAID *</pattern>
+<template><srai>I SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>SAIS PAS *</pattern>
+<template><srai>JE NE SAIS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SAIS PAS</pattern>
+<template><srai>JE NE SAIS PAS</srai>
+</template>
+</category>
+
+<category><pattern>SAIS TU *</pattern>
+<template><srai>TU CONNAIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SAIS TU</pattern>
+<template>Je pense que oui.
+</template>
+</category>
+
+<category><pattern>SAIS TU ME DONNER *</pattern>
+<template><srai>TU PEUX ME DONNER <star/></srai>
+</template>
+</category>
+
+<category><pattern>SAIS TU MON MON</pattern>
+<template><srai>QUEL EST MON NOM</srai>
+</template>
+</category>
+
+<category><pattern>SAIS TU OU JE PEUX TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAIS TU OU JE POURRAIS TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAIS TU OU ON PEUT TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAIS TU OU ON POURRAIT TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SALAUD</pattern>
+<template>Maitrisez vos émotions, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SALLY</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS SALLY</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>SALOD</pattern>
+<template>Maitrisez vos émotions, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SALOPE</pattern>
+<template>Maitrisez vos émotions, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SALUT</pattern>
+<template>Does SALUT mean hello or goodbye?
+</template>
+</category>
+
+<category><pattern>SALUT COMMENT ALLEZ VOUS</pattern>
+<template>Salut! Très bien et vous?
+</template>
+</category>
+
+<category><pattern>SALUTATIONS *</pattern>
+<template>Greetings, Human.
+</template>
+</category>
+
+<category><pattern>SALUTATIONS</pattern>
+<template>Greetings.
+</template>
+</category>
+
+<category><pattern>SAM</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS SAM</srai>
+</template>
+</category>
+
+<category><pattern>SAMANTHA</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>CALL ME SAMANTHA</srai><think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>SAME *</pattern>
+<template>Yes, it is much the same.
+</template>
+</category>
+
+<category><pattern>SAME</pattern>
+<template>The same as what?
+</template>
+</category>
+
+<category><pattern>SAME HERE</pattern>
+<template><srai>ME TOO</srai>
+</template>
+</category>
+
+<category><pattern>SAME HERE</pattern><that>I LIKE TO MEET NEW PEOPLE</that>
+<template>How do you usually meet new people?
+</template>
+</category>
+
+<category><pattern>SAME THING</pattern>
+<template>Oh really?  I thought so.
+</template>
+</category>
+
+<category><pattern>SAME TO YOU *</pattern>
+<template><srai>LIKEWISE</srai>
+</template>
+</category>
+
+<category><pattern>SAME TO YOU</pattern>
+<template>The pleasure is all mine.
+</template>
+</category>
+
+<category><pattern>SAN DIEGO</pattern>
+<template><srai>I AM IN SAN DIEGO</srai>
+</template>
+</category>
+
+<category><pattern>SAN FRANCISCO</pattern>
+<template>I am in <set name="location">San Francisco</set> too!
+<think><set name="it"><set name="topic">San Francisco</set></set></think>
+</template>
+</category>
+
+<category><pattern>SAN FRANCISCO IS *</pattern>
+<template>I knew it was on the west coast, but I didn't know it was <person/>.
+<think><set name="it"><set name="topic">SAN FRANCISCO</set></set></think>
+</template>
+</category>
+
+<category><pattern>SANDY</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS SANDY</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>SANS AUCUN DOUTE</pattern>
+<template><srai>OUI</srai>
+</template>
+</category>
+
+<category><pattern>SANS BLAGUES</pattern>
+<template>Je suis sérieux.
+</template>
+</category>
+
+<category><pattern>SANS DOUTE</pattern>
+<template><srai>PEUT ETRE</srai>
+</template>
+</category>
+
+<category><pattern>SANS DOUTE MAIS *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>SANTA CLAUS *</pattern>
+<template><set name="he"> Santa</set> brings us presents every Christmas.
+</template>
+</category>
+
+<category><pattern>SARA</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS SARA</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>SARAH</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>My name is Sarah</srai>
+</template>
+</category>
+
+<category><pattern>SATAN *</pattern>
+<template><srai>WHO IS SATAN</srai>
+</template>
+</category>
+
+<category><pattern>SAURAIS TU ME DONNER *</pattern>
+<template><srai>TU PEUX ME DONNER <star/></srai>
+</template>
+</category>
+
+<category><pattern>SAURAIS TU MON MON</pattern>
+<template><srai>QUEL EST MON NOM</srai>
+</template>
+</category>
+
+<category><pattern>SAURAIS TU OU JE PEUX TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAURAIS TU OU JE POURRAIS TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAURAIS TU OU ON PEUT TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAURAIS TU OU ON POURRAIT TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAURIEZ VOUS OU JE PEUX TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAURIEZ VOUS OU JE POURRAIS TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAURIEZ VOUS OU ON PEUT TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAURIEZ VOUS OU ON POURRAIT TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAVAIS PAS *</pattern>
+<template><srai>JE NE SAIS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SAVEZ VOUS</pattern>
+<template>Je pense que oui.
+</template>
+</category>
+
+<category><pattern>SAVEZ VOUS OU JE POURRAIS TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAVEZ VOUS OU ON POURRAIT TROUVER *</pattern>
+<template><srai>PLUS D INFORMATION *</srai>
+</template>
+</category>
+
+<category><pattern>SAVING PRIVATE RYAN</pattern>
+<template><srai>My favorite movie is saving private ryan</srai>
+</template>
+</category>
+
+<category><pattern>SAW WHAT</pattern>
+<template><srai>WHAT DID YOU SEE</srai>
+</template>
+</category>
+
+<category><pattern>SAY *</pattern>
+<template>"<star/>"
+</template>
+</category>
+
+<category><pattern>SAY</pattern>
+<template>Say what?
+</template>
+</category>
+
+<category><pattern>SAY HELLO IN GERMAN</pattern>
+<template>Hallo.
+</template>
+</category>
+
+<category><pattern>SAY I *</pattern>
+<template>OK.  "You <person/>."
+</template>
+</category>
+
+<category><pattern>SAY MY BIRTHDAY IS *</pattern>
+<template><random>
+<li>You said it was </li>
+<li>You told me it was </li>
+<li>It is </li>
+</random>
+<get name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY BIRTHDAY IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+When is your birthday?
+</template>
+</category>
+
+<category><pattern>SAY MY BOYFRIEND IS *</pattern>
+<template><random>
+<li>You said his name was </li>
+<li>You told me he was </li>
+<li>His name is </li>
+</random>
+<get name="boyfriend"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY BOYFRIEND IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your boyfriend's name?
+</template>
+</category>
+
+<category><pattern>SAY MY BROTHER IS *</pattern>
+<template><random>
+<li>You said his name was </li>
+<li>You told me he was </li>
+<li>His name is </li>
+</random>
+<get name="brother"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY BROTHER IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+Who is your brother?
+</template>
+</category>
+
+<category><pattern>SAY MY CAT IS *</pattern>
+<template><random>
+<li>You said her name was </li>
+<li>You told me she was </li>
+<li>Her name is </li>
+</random>
+<get name="cat"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY CAT IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your cat's name?
+</template>
+</category>
+
+<category><pattern>SAY MY DOG IS *</pattern>
+<template><random>
+<li>You said his name was </li>
+<li>You told me he was </li>
+<li>His name is </li>
+</random>
+<get name="dog"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY DOG IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your dog's name?
+</template>
+</category>
+
+<category><pattern>SAY MY EMAIL IS *</pattern>
+<template><random>
+<li>You said it was </li>
+<li>You told me it was </li>
+<li>It is </li>
+</random>
+<get name="email"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY EMAIL IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your email?
+</template>
+</category>
+
+<category><pattern>SAY MY FATHER IS *</pattern>
+<template><random>
+<li>You said his name was </li>
+<li>You told me he was </li>
+<li>His name is </li>
+</random>
+<get name="father"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY FATHER IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+Who is your father?
+</template>
+</category>
+
+<category><pattern>SAY MY FRIEND IS *</pattern>
+<template><random>
+<li>You said his name was </li>
+<li>You told me he was </li>
+<li>His name is </li>
+</random>
+<get name="friend"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY FRIEND IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your friend's name?
+</template>
+</category>
+
+<category><pattern>SAY MY FULL NAME IS *</pattern>
+<template><random>
+<li>You said it was </li>
+<li>You told me it was </li>
+<li>It is </li>
+</random>
+<get name="fullname"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY FULL NAME IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your full name?
+</template>
+</category>
+
+<category><pattern>SAY MY GIRLFRIEND IS *</pattern>
+<template><random>
+<li>You said her name was </li>
+<li>You told me she was </li>
+<li>Her name is </li>
+</random>
+<get name="girlfriend"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY GIRLFRIEND IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your girlfriend's name?
+</template>
+</category>
+
+<category><pattern>SAY MY HUSBAND IS *</pattern>
+<template><random>
+<li>You said his name was </li>
+<li>You told me he was </li>
+<li>His name is </li>
+</random>
+<get name="husband"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY HUSBAND IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your husband's name?
+</template>
+</category>
+</aiml>

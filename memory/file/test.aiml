@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<category>
+<pattern>WHAT IS APPLE</pattern>
+<template>Founded in a garage in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne, Apple began as a personal computer pioneer that today makes everything from laptops to portable media players.Headquartered in Cupertino, California, the consumer electronics giant entered the smartphone market with the iPhone in 2007, and the tablet market with the iPad in 2010, and the smartwatch market with the Apple Watch in 2014.</template>
+</category><category>
+<pattern>TELL ME ABOUT APPLE</pattern>
+<template><srai>WHAT IS APPLE</srai></template>
+</category><category>
+<pattern>WHAT IS APPLE LATEST PHONE</pattern>
+<template>Apple's latest mobile launch is the iPhone 7 Plus.</template>
+</category><category>
+<pattern>WHAT IS THE RAM OF IPHONE 7 PLUS</pattern>
+<template>3GB</template>
+</category><category>
+<pattern>WHAT * IOS * IPHONE 7 PLUS</pattern>
+<template>its comes with ios 10</template>
+</category><category>
+<pattern>CAMERA OF IPHONE 7 PLUS</pattern>
+<template>It has Front Camera of 7-megapixel and Rear camera of 12-megapixel.</template>
+</category><category>
+<pattern>BATTERY CAPACITY OF IPHONE 7 PLUS</pattern>
+<template>2900mAh non removable battery.</template>
+</category><category>
+<pattern>IS IPHONE 7 PLUS DUAL SIM</pattern>
+<template>No, is a single SIM GSM smartphone that accepts a Nano-SIM.</template>
+</category><category>
+<pattern> * CONNECTIVITY OPTION IN IPHONE 7 PLUS</pattern>
+<template>Connectivity options include Wi-Fi, GPS, Bluetooth, 4G (with support for Band 40 used by some LTE networks in India)</template>
+</category><category>
+<pattern>WHAT ARE THE SENSORS IN IPHONE 7 PLUS </pattern>
+<template>Sensors on the phone include Proximity sensor, Ambient light sensor, Accelerometer, and Gyroscope.</template>
+</category><category>
+<pattern>STORAGE CAPACITY OF IPHONE 7 PLUS</pattern>
+<template>The phone packs 32GB of internal storage cannot be expanded.</template>
+</category><category>
+<pattern>WHAT ARE THE COLOURS * IPHONE 7 PLUS</pattern>
+<template>Hm, let me see. Rose Gold, Gold, Silver, Black, Jet Black</template>
+</category><category>
+<pattern>IS APPLE IPHONE 7 IS DUAL SIM</pattern>
+<template><srai>IS IPHONE 7 PLUS DUAL SIM</srai></template>
+</category><category>
+<pattern>WHAT IS IOS</pattern>
+<template>iOS (formerly iPhone OS) is a mobile operating system created and developed by Apple Inc. exclusively for its hardware. It is the operating system that presently powers many of the company's mobile devices, including the iPhone, iPad, and iPod touch. It is the second most popular mobile operating system globally after Android by sales.</template>
+</category><category>
+<pattern>CAMERA OF IPHONE 7</pattern>
+<template><srai>CAMERA OF IPHONE 7 PLUS</srai></template>
+</category><category>
+<pattern>RAM OF IPHONE 7</pattern>
+<template>2GB</template>
+</category><category>
+<pattern>WHAT * IOS * IPHONE 7</pattern>
+<template>its comes with ios 10</template>
+</category><category>
+<pattern>BATTERY CAPACITY OF IPHONE</pattern>
+<template>Is powered by a 1960mAh non removable battery</template>
+</category><category>
+<pattern>STORAGE CAPACITY OF IPHONE 7</pattern>
+<template>The phone packs 32GB of internal storage cannot be expanded.</template>
+</category><category>
+<pattern>WHAT IS THE DIFFERENCE BETWEEN IPHONE 7 PLUS AND IPHONE 7</pattern>
+<template>The Apple iPhone 7 has a 4.7-inch size display, while the iPhone 7 Plus has a 5.5-inch display.iPhone 7 and the iPhone 7 Plus. The iPhone 7 features a single 12-megapixel sensor with a f/1.8 aperture, while the iPhone 7 Plus features two 12-megapixel rear camera. The first is a wide-angle lens with a f/1.8 aperture, the other is a telephoto lens with a f/2.8 aperture.The Apple iPhone 7 measures 138.3 x 67.1 x 7.1mm and it weighs 138g, while the iPhone 7 Plus measures 158.2 x 77.9 x 7.3mm and hits the scales at 188g. As you would expect, the standard iPhone 7 is therefore smaller and lighter than the Plus.</template>
+</category><category>
+<pattern>WHAT IS THE DIFFERENCE BETWEEN IPHONE 7 AND IPHONE 7 PLUS</pattern>
+<template><srai>WHAT IS THE DIFFERENCE BETWEEN IPHONE 7 PLUS AND IPHONE 7</srai></template>
+</category><category>
+<pattern>TELL ME ABOUT IPHONE SE</pattern>
+<template>The Apple iPhone SE is powered by A9 processor and it comes with 2GB of RAM. The phone packs 16GB of internal storage cannot be expanded. As far as the cameras are concerned, the Apple iPhone SE packs a 12-megapixel primary camera on the rear and a 1.2-megapixel front shooter for selfies.</template>
+</category><category>
+<pattern>WHAT IS IPHONE SE</pattern>
+<template><srai>TELL ME ABOUT IPHONE SE</srai></template>
+</category><category>
+<pattern>IS IPHONE SE DUAL SIM</pattern>
+<template><srai>IS IPHONE 7 PLUS DUAL SIM</srai></template>
+</category><category>
+<pattern>BATTERY CAPACITY OF IPHONE SE</pattern>
+<template>1960mAh</template>
+</category><category>
+<pattern>CAMERA OF IPHONE SE</pattern>
+<template>It has Front Camera of 1.2-megapixel and Rear camera of 12-megapixel.</template>
+</category><category>
+<pattern>RAM OF IPHONE SE</pattern>
+<template>2GB</template>
+</category><category>
+<pattern>STORAGE CAPACITY OF IPHONE SE</pattern>
+<template>The phone packs 16GB of internal storage cannot be expanded.</template>
+</category><category>
+<pattern>HOW MANY APPLE PHONES ARE THERE</pattern>
+<template>As of September 2016, 15 different iPhone models were produced</template>
+</category><category>
+<pattern>HI</pattern>
+<template><random><li>Hello! i am here to help you buy a phone, now what you want to know? ask me! By the way what is your name?</li><li>Hello! By the way what is your name? </li></random> </template>
+</category><category>
+<pattern>HELLO</pattern>
+<template><srai>HI</srai></template>
+</category><category>
+<pattern>HI *</pattern>
+<template><srai>HI</srai></template>
+</category><category>
+<pattern>HELLO *</pattern>
+<template><srai>HI</srai></template>
+</category><category>
+<pattern>MY NAME IS *</pattern>
+<template>HELLO! <think><set name= "username"><star/></set></think> Nice to meet you! </template>
+</category><category>
+<pattern>WHAT IS MY NAME</pattern>
+<template><random><li> I know your name. your name is <get name= "username"/>.right?</li><li> you <get name ="username"/>.I know that.right?</li></random></template>
+</category><category>
+<pattern>YES YOU ARE RIGHT</pattern>
+<template>thank you! i remember your name, as long as this conversation is going on! </template>
+</category><category>
+<pattern>RIGHT YOU ARE</pattern>
+<template><srai>YES YOU ARE RIGHT</srai></template>
+</category><category>
+<pattern>NO YOU ARE WRONG</pattern>
+<template>Ok! Then say your name?</template>
+</category><category>
+<pattern>WRONG THAT IS NOT MY NAME</pattern>
+<template><srai>NO YOU ARE WRONG</srai></template>
+</category>
+</aiml>

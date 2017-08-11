@@ -1,2 +1,2 @@
-# WhatsappBotX
-Whatsaap chat bot using python selenium  
+# Selenium-whatsaapBot
+whatsapp chatbot using python selenium
