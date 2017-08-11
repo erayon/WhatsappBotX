@@ -17,8 +17,8 @@ pip install aiml
 ```
  
 ## links 
-http://selenium-python.readthedocs.io/
-https://pypi.python.org/pypi/python-aiml/0.9.0
+1. http://selenium-python.readthedocs.io/
+2. https://pypi.python.org/pypi/python-aiml/0.9.0
 
 
 
