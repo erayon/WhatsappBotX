@@ -9,10 +9,10 @@ Selenium is a tool to test your web application. You can do this in various ways
 
 ### Prerequisites
 
-Things need to install the software and how to install them 
 1. firefox (https://www.mozilla.org/en-US/firefox/new/)
 2. selenium (http://selenium-python.readthedocs.io/)
 3. aiml (https://pypi.python.org/pypi/python-aiml/0.9.0)
+
 
 ```
 apt-get install firefox
